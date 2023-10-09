@@ -1,0 +1,15 @@
+C:\Projects\Shaktek\bin\Debug\net8.0\Shaktek.exe
+C:\Projects\Shaktek\bin\Debug\net8.0\Shaktek.deps.json
+C:\Projects\Shaktek\bin\Debug\net8.0\Shaktek.runtimeconfig.json
+C:\Projects\Shaktek\bin\Debug\net8.0\Shaktek.dll
+C:\Projects\Shaktek\bin\Debug\net8.0\Shaktek.pdb
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.AssemblyInfoInputs.cache
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.AssemblyInfo.cs
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.csproj.CoreCompileInputs.cache
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.sourcelink.json
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.dll
+C:\Projects\Shaktek\obj\Debug\net8.0\refint\Shaktek.dll
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.pdb
+C:\Projects\Shaktek\obj\Debug\net8.0\Shaktek.genruntimeconfig.cache
+C:\Projects\Shaktek\obj\Debug\net8.0\ref\Shaktek.dll
