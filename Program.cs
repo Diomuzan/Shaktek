@@ -48,7 +48,11 @@ string newProduct = "Glorious Future";
 decimal newReturn = 0.13125m;
 decimal newProfit = 63000000.0m;
 
+Console.WriteLine("Dear" + customerName + "," + "\n");
+Console.WriteLine("As a customer of our" + " " + currentProduct + " " + "offering we're excited to tell you about a new financial product that would dramatically increase your return");
+Console.WriteLine("Currently you own" + " " + currentShares + " " + "at a return of" + " " + currentReturn + ".");
+Console.WriteLine("Our new product" + " " + newProduct + " " + "offers a return of" + " " + newReturn + ".");
+Console.WriteLine("Given your current volume, your potential profit would be" + " " + newProfit + "." + "\n");
 Console.WriteLine("Here's a quick comparison:\n");
-string comparisonMessage = "";
-Console.WriteLine("Dear" + customerName)
+string comparisonMessage = currentProduct + " " + currentReturn + " " + currentProfit + " " + newProduct + " " + newReturn + " " + newProfit;
 Console.WriteLine(comparisonMessage);
