@@ -42,17 +42,17 @@ Console.WriteLine(formattedLine + "\n");
 string customerName = "Ms. Barros";
 string currentProduct = "Magic Yield";
 int currentShares = 2975000;
-decimal currentReturn = 0.1275m;
+decimal currentReturn = 12.75m;
 decimal currentProfit = 55000000.0m;
 string newProduct = "Glorious Future";
-decimal newReturn = 0.13125m;
+decimal newReturn = 13.13m;
 decimal newProfit = 63000000.0m;
-
-Console.WriteLine("Dear" + customerName + "," + "\n");
-Console.WriteLine("As a customer of our" + " " + currentProduct + " " + "offering we're excited to tell you about a new financial product that would dramatically increase your return");
-Console.WriteLine("Currently you own" + " " + currentShares + " " + "at a return of" + " " + currentReturn + ".");
-Console.WriteLine("Our new product" + " " + newProduct + " " + "offers a return of" + " " + newReturn + ".");
-Console.WriteLine("Given your current volume, your potential profit would be" + " " + newProfit + "." + "\n");
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+Console.WriteLine($"Dear {customerName},\n");
+Console.WriteLine($"As a customer of our {currentProduct} offering we're excited to tell you about a new financial product that would dramatically increase your return.");
+Console.WriteLine($"Currently you own {currentShares:N2} shares at a return of {currentReturn:F2}%.");
+Console.WriteLine($"Our new product {newProduct} offers a return of {newReturn:F2}%. Given your current volume, your potential profit would be ${newProfit:N2}.\n");
 Console.WriteLine("Here's a quick comparison:\n");
-string comparisonMessage = currentProduct + " " + currentReturn + " " + currentProfit + " " + newProduct + " " + newReturn + " " + newProfit;
+string comparisonMessage = $"{currentProduct,-16} {currentReturn,6:F2}%   ${currentProfit:N2}\n" + $"{newProduct,-16} {newReturn,6:F2}%   ${newProfit:N2}";
 Console.WriteLine(comparisonMessage);
+
