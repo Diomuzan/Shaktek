@@ -56,3 +56,4 @@ Console.WriteLine("Here's a quick comparison:\n");
 string comparisonMessage = $"{currentProduct,-16} {currentReturn,6:F2}%   ${currentProfit:N2}\n" + $"{newProduct,-16} {newReturn,6:F2}%   ${newProfit:N2}";
 Console.WriteLine(comparisonMessage);
 
+
